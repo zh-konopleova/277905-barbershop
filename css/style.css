@@ -1,3 +1,11 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 14px;
   line-height: 18px;
@@ -12,6 +20,102 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
+}
+
+.main-header {
+  background-color: #000000;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  float: left;
+}
+
+.main-nav {
+  float: left;
+  width: 660px;
+  min-height: 70px;
+}
+
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.left-column {
+  width: 220px;
+  float: left;
+}
+
+fieldset {
+  border: none;
+}
+
+.right-column {
+  width: 700px;
+  float: right;
+  font-size: 0;
+}
+
+.product-item {
+  display: inline-block;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination {
+  font-size: 14px;
+}
+
+.footer-contacts {
+  width: 320px;
+  float: left;
+}
+
+.footer-social {
+  width: 160px;
+  float: left;
+}
+
+.footer-copyright {
+  width: 240px;
+  float: right;
+}
+
+/*catalog-item.html */
+
+.content-left {
+  width: 470px;
+  float: left;
+}
+
+.content-right {
+  width: 400px;
+  float: right;
 }
